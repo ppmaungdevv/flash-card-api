@@ -48,6 +48,22 @@ def generate_quiz():
     
     return jsonify(resp)
 
+@flash_card_blueprint.route('/get_multiple_choice', methods = ['POST'])
+def get_multiple_choice():
+
+    data = request.get_json()
+    question_consonant = data.get('question_consonant')
+
+    consonants_json = get_json_data('./data/u.json')
+
+    quiz = get_quiz_choices(consonants_json, question_consonant)
+
+    resp = {
+        "question_consonant": question_consonant,
+        "quiz": quiz
+    }
+    return jsonify(resp)
+
 def get_consonants(consonants_json, consonant_count, is_random):
 
     """
@@ -110,7 +126,6 @@ def get_quiz_choices(consonants_json, question_consonant, choice_count = 4):
     random.shuffle(choices)
 
     return choices
-
 
 def get_json_data(file_path):
     

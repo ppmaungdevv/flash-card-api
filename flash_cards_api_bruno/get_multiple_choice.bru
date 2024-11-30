@@ -5,7 +5,13 @@ meta {
 }
 
 post {
-  url: get_multiple_choice
-  body: none
+  url: {{host}}/get_multiple_choice
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    "question_consonant": "จ"
+  }
 }
