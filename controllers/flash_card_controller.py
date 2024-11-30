@@ -53,11 +53,11 @@ def get_multiple_choice():
 
     consonants_json = get_json_data('./data/u.json')
 
-    quiz = get_quiz_choices(consonants_json, question_consonant)
+    choices = get_quiz_choices(consonants_json, question_consonant)
 
     resp = {
         "question_consonant": question_consonant,
-        "quiz": quiz
+        "choices": choices
     }
     return jsonify(resp)
 
