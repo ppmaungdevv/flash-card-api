@@ -4,8 +4,11 @@ services:
   python:
     build:
       context: .
+      # dockerfile: docker/python_1.Dockerfile
       dockerfile: docker/python.Dockerfile
     ports:
       - "5000:5000"
     volumes:
       - .:/app
+    environment:
+      - FLASK_ENV=development

@@ -1,0 +1,18 @@
+meta {
+  name: generate_quiz
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{local_host}}/generate_quiz
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "consonant_count": 4,
+    "is_random": false
+  }
+}

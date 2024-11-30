@@ -1,0 +1,310 @@
+[
+  {
+    "letter": "ก",
+    "pronunciation": "กอ ไก่",
+    "meaning": "gai means chicken",
+    "phonetic": "g/k",
+    "instructions": "Lift the back part of your tongue to touch the soft palate quickly to make the sound."
+  },
+  {
+    "letter": "ข",
+    "pronunciation": "ขอ ไข่",
+    "meaning": "kai means egg",
+    "phonetic": "kh/k",
+    "instructions": "Lift the back part of your tongue to touch the soft palate and push the air out."
+  },
+  {
+    "letter": "ฃ",
+    "pronunciation": "ฃอ ฃวด",
+    "meaning": "khuat means bottle (obsolete letter)",
+    "phonetic": "kh/k",
+    "instructions": "Lift the back part of your tongue to touch the soft palate and push the air out."
+  },
+  {
+    "letter": "ค",
+    "pronunciation": "คอ ควาย",
+    "meaning": "khwai means buffalo",
+    "phonetic": "kh/k",
+    "instructions": "Lift the back part of your tongue to touch the soft palate and push the air out."
+  },
+  {
+    "letter": "ฅ",
+    "pronunciation": "ฅอ คน",
+    "meaning": "khon means person (obsolete letter)",
+    "phonetic": "kh/k",
+    "instructions": "Lift the back part of your tongue to touch the soft palate and push the air out."
+  },
+  {
+    "letter": "ฆ",
+    "pronunciation": "ฆอ ระฆัง",
+    "meaning": "ra-khang means bell",
+    "phonetic": "kh/k",
+    "instructions": "Lift the back part of your tongue to touch the soft palate and push the air out."
+  },
+  {
+    "letter": "ง",
+    "pronunciation": "งอ งู",
+    "meaning": "nguu means snake",
+    "phonetic": "ng/ng",
+    "instructions": "Lift the back part of your tongue to touch the soft palate and push the air out through the nose."
+  },
+  {
+    "letter": "จ",
+    "pronunciation": "จอ จาน",
+    "meaning": "jaan means plate",
+    "phonetic": "j/t",
+    "instructions": "Lift the front part of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ฉ",
+    "pronunciation": "ฉอ ฉิ่ง",
+    "meaning": "ching means small cymbals",
+    "phonetic": "ch/-",
+    "instructions": "Lift the front part of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ช",
+    "pronunciation": "ชอ ช้าง",
+    "meaning": "chaang means elephant",
+    "phonetic": "ch/t",
+    "instructions": "Lift the front part of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ซ",
+    "pronunciation": "ซอ โซ่",
+    "meaning": "soo means chain",
+    "phonetic": "s/t",
+    "instructions": "Move the middle part of your tongue up to almost touch the hard palate and force air through to create friction."
+  },
+  {
+    "letter": "ฌ",
+    "pronunciation": "ฌอ เฌอ",
+    "meaning": "cho means tree",
+    "phonetic": "ch/-",
+    "instructions": "Lift the front part of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ญ",
+    "pronunciation": "ญอ หญิง",
+    "meaning": "ying means woman",
+    "phonetic": "y/n",
+    "instructions": "Lift the front part of your tongue to touch the hard palate quickly and push the air through the mouth and nose."
+  },
+  {
+    "letter": "ฎ",
+    "pronunciation": "ฎอ ชฎา",
+    "meaning": "cha-daa means crown",
+    "phonetic": "d/t",
+    "instructions": "Lift the front part near to the tip of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ฏ",
+    "pronunciation": "ฏอ ปฏัก",
+    "meaning": "bpàk-dtàk means goad",
+    "phonetic": "dt/t",
+    "instructions": "Lift the tip of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ฐ",
+    "pronunciation": "ฐอ ฐาน",
+    "meaning": "taan means base",
+    "phonetic": "t/t",
+    "instructions": "Lift the front part near to the tip of your tongue to touch the hard palate just above your teeth quickly to make the sound."
+  },
+  {
+    "letter": "ฑ",
+    "pronunciation": "ฑอ มณโฑ",
+    "meaning": "mon-tor means a female character in a classical Thai play",
+    "phonetic": "t/t",
+    "instructions": "Lift the front part near to the tip of your tongue to touch the hard palate just above your teeth quickly to make the sound."
+  },
+  {
+    "letter": "ฒ",
+    "pronunciation": "ฒอ ผู้เฒ่า",
+    "meaning": "poo-tao means old person",
+    "phonetic": "t/t",
+    "instructions": "Lift the front part near to the tip of your tongue to touch the hard palate just above your teeth quickly to make the sound."
+  },
+  {
+    "letter": "ณ",
+    "pronunciation": "ณอ เณร",
+    "meaning": "naen means novice monk",
+    "phonetic": "n/n",
+    "instructions": "Lift the front part of your tongue to touch the hard palate quickly and push the air through the open mouth and the nose."
+  },
+  {
+    "letter": "ด",
+    "pronunciation": "ดอ เด็ก",
+    "meaning": "dek means child",
+    "phonetic": "d/t",
+    "instructions": "Lift the front part near to the tip of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ต",
+    "pronunciation": "ตอ เต่า",
+    "meaning": "dtao means turtle",
+    "phonetic": "dt/t",
+    "instructions": "Lift the tip of your tongue and touch the hard palate quickly to make the sound."
+  },
+  {
+    "letter": "ถ",
+    "pronunciation": "ถอ ถุง",
+    "meaning": "tung means sack; bag",
+    "phonetic": "t/t",
+    "instructions": "Lift the front part near to the tip of your tongue to touch the hard palate just above your teeth quickly to make the sound."
+  },
+  {
+    "letter": "ท",
+    "pronunciation": "ทอ ทหาร",
+    "meaning": "ta-haan means soldier",
+    "phonetic": "t/t",
+    "instructions": "Lift the front part near to the tip of your tongue to touch the hard palate just above your teeth quickly to make the sound."
+  },
+  {
+    "letter": "ธ",
+    "pronunciation": "ธอ ธง",
+    "meaning": "tong means flag",
+    "phonetic": "t/t",
+    "instructions": "Lift the front part near to the tip of your tongue to touch the hard palate just above your teeth quickly to make the sound."
+  },
+  {
+    "letter": "น",
+    "pronunciation": "นอ หนู",
+    "meaning": "noo means mouse; rat",
+    "phonetic": "n/n",
+    "instructions": "Lift the front part of your tongue to touch the hard palate quickly and push the air through the open mouth and the nose."
+  },
+  {
+    "letter": "บ",
+    "pronunciation": "บอ ใบไม้",
+    "meaning": "bai-mai means leaf",
+    "phonetic": "b/p",
+    "instructions": "Close your lips and push the air out to exaggerate the sound."
+  },
+  {
+    "letter": "ป",
+    "pronunciation": "ปอ ปลา",
+    "meaning": "bplaa means fish",
+    "phonetic": "bp/p",
+    "instructions": "Close your lips and push the air out to exaggerate the sound."
+  },
+  {
+    "letter": "ผ",
+    "pronunciation": "ผอ ผึ้ง",
+    "meaning": "peung means bee",
+    "phonetic": "p/-",
+    "instructions": "Close your mouth and use the lips to make the sound by forcing air through the mouth."
+  },
+  {
+    "letter": "ฝ",
+    "pronunciation": "ฝอ ฝา",
+    "meaning": "faa means lid",
+    "phonetic": "f/-",
+    "instructions": "Move your lower lip to touch upper teeth and force the air through to make the sound."
+  },
+  {
+    "letter": "พ",
+    "pronunciation": "พอ พาน",
+    "meaning": "phaan means offering tray",
+    "phonetic": "ph/p",
+    "instructions": "Close your mouth and use the lips to make the sound by forcing air through the mouth."
+  },
+  {
+    "letter": "ฟ",
+    "pronunciation": "ฟอ ฟัน",
+    "meaning": "fan means teeth",
+    "phonetic": "f/p",
+    "instructions": "Move your lower lip to touch upper teeth and force the air through to make the sound."
+  },
+  {
+    "letter": "ภ",
+    "pronunciation": "ภอ สำเภา",
+    "meaning": "sam-phao means junk boat",
+    "phonetic": "ph/p",
+    "instructions": "Close your mouth and use the lips to make the sound by forcing air through the mouth."
+  },
+  {
+    "letter": "ม",
+    "pronunciation": "มอ ม้า",
+    "meaning": "maa means horse",
+    "phonetic": "m/m",
+    "instructions": "Close your lips and push the air through the mouth and the nose."
+  },
+  {
+    "letter": "ย",
+    "pronunciation": "ยอ ยักษ์",
+    "meaning": "yak means giant",
+    "phonetic": "y/y",
+    "instructions": "Push the middle part of your tongue close to the hard palate and let the air pass through."
+  },
+  {
+    "letter": "ร",
+    "pronunciation": "รอ เรือ",
+    "meaning": "rua means boat",
+    "phonetic": "r/n",
+    "instructions": "Push the tip of your tongue close to the ridge behind the upper teeth, using a vibration to produce the sound."
+  },
+  {
+    "letter": "ล",
+    "pronunciation": "ลอ ลิง",
+    "meaning": "ling means monkey",
+    "phonetic": "l/n",
+    "instructions": "Lift the front part of your tongue close to the hard palate to make the sound."
+  },
+  {
+    "letter": "ว",
+    "pronunciation": "วอ แหวน",
+    "meaning": "waen means ring",
+    "phonetic": "w/w",
+    "instructions": "Move the lips close together and let the air pass through the open mouth."
+  },
+  {
+    "letter": "ศ",
+    "pronunciation": "ศอ ศาลา",
+    "meaning": "saa-laa means pavilion",
+    "phonetic": "s/t",
+    "instructions": "Move the middle part of your tongue up to almost touch the hard palate and force air through to create friction."
+  },
+  {
+    "letter": "ษ",
+    "pronunciation": "ษอ ฤๅษี",
+    "meaning": "reu-si means hermit",
+    "phonetic": "s/t",
+    "instructions": "Move the middle part of your tongue up to almost touch the hard palate and force air through to create friction."
+  },
+  {
+    "letter": "ส",
+    "pronunciation": "สอ เสือ",
+    "meaning": "suea means tiger",
+    "phonetic": "s/t",
+    "instructions": "Move the middle part of your tongue up to almost touch the hard palate and force air through to create friction."
+  },
+  {
+    "letter": "ห",
+    "pronunciation": "หอ หีบ",
+    "meaning": "heep means chest",
+    "phonetic": "h/-",
+    "instructions": "Make the sound from your throat (leave the vocal cord open) and let the air pass through the open mouth."
+  },
+  {
+    "letter": "ฬ",
+    "pronunciation": "ฬอ จุฬา",
+    "meaning": "ju-laa means kite",
+    "phonetic": "l/n",
+    "instructions": "Lift the front part of your tongue close to the hard palate to make the sound."
+  },
+  {
+    "letter": "อ",
+    "pronunciation": "ออ อ่าง",
+    "meaning": "aang means basin",
+    "phonetic": "A, E, I, O, U",
+    "instructions": "Make the sound from your throat (close the vocal cord) and let it pass through the open mouth."
+  },
+  {
+    "letter": "ฮ",
+    "pronunciation": "ฮอ นกฮูก",
+    "meaning": "nok-hook means owl",
+    "phonetic": "h/-",
+    "instructions": "Make the sound from your throat (leave the vocal cord open) let the air pass through the open mouth."
+  }
+]

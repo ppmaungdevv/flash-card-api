@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, send_file
+from flask import Blueprint, request, jsonify, send_file, make_response
 from gtts import gTTS
 import os
 import io
@@ -22,12 +22,17 @@ def get_test():
         audio_bytes = io.BytesIO()
         tts.write_to_fp(audio_bytes)
         audio_bytes.seek(0)
-        return send_file(
-            audio_bytes,
-            mimetype='audio/mpeg',
-            as_attachment=False,
-            download_name="output.mp3"
+
+        response = make_response(
+            send_file(
+                audio_bytes,
+                mimetype='audio/mpeg',
+                as_attachment=False,
+                download_name=f"{text}.mp3"
+            )
         )
+        # response.headers["Cache-Control"] = "public, max-age=86400"
+        return response
         # return jsonify({'name': 'PPM', 'email': 'p@mc.o'})
     except Exception as e:
         return jsonify({"error": str(e)}), 500    
