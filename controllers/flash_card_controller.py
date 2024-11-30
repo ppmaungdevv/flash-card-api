@@ -31,15 +31,12 @@ def generate_quiz():
 
     consonants_json = get_json_data('./data/u.json')
 
-    quiz = {
-        'question': ''
-    }
-
     generated_consonants_list = get_consonants(consonants_json, consonant_count, is_random)
 
-    quiz['question'] = generated_consonants_list[0]
-    quiz['choices'] = get_quiz_choices(consonants_json, quiz['question'])
-
+    quiz = { 
+            'question': generated_consonants_list[0],
+            'choices': get_quiz_choices(consonants_json, generated_consonants_list[0])
+        }
 
     resp = {
         "generated_consonants": generated_consonants_list,
