@@ -11,13 +11,15 @@ def get_test():
 
     data = request.get_json()
     text = data.get('text')
+    lang = data.get('lang') or 'th'
 
+    
     try:
         # tts =  gTTS(text = 'test', lang = 'en')
         
         # tts =  gTTS(text = 'สวัสดีชาวโลก', lang = 'th')
         # tts =  gTTS(text = 'กอไก่', lang = 'th')
-        tts =  gTTS(text, lang = 'th')
+        tts =  gTTS(text, lang = lang)
 
         audio_bytes = io.BytesIO()
         tts.write_to_fp(audio_bytes)
@@ -35,4 +37,5 @@ def get_test():
         return response
         # return jsonify({'name': 'PPM', 'email': 'p@mc.o'})
     except Exception as e:
+        print(e)
         return jsonify({"error": str(e)}), 500    
