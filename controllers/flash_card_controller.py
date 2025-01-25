@@ -28,19 +28,25 @@ def generate_quiz():
     data = request.get_json()
     is_random = data.get('is_random')
     consonant_count = int(data.get('consonant_count'))
+    lang = data.get('lang') or 'th'
+    ja_kana = data.get('ja_kana')
 
-    consonants_json = get_json_data('./data/u.json')
+    data_path = get_data_path(lang, ja_kana)
+    
+    consonants_json = get_json_data(data_path)
+    # consonants_json = get_json_data('./data/u.json')
 
     generated_consonants_list = get_consonants(consonants_json, consonant_count, is_random)
 
     quiz = { 
             'question': generated_consonants_list[0],
-            'choices': get_quiz_choices(consonants_json, generated_consonants_list[0])
+            'choices': get_quiz_choices(consonants_json, generated_consonants_list[0], lang)
         }
 
     resp = {
         "generated_consonants": generated_consonants_list,
         "quiz": quiz,
+        # "data_path": consonants_test
     }
     
     return jsonify(resp)
@@ -50,16 +56,37 @@ def get_multiple_choice():
 
     data = request.get_json()
     question_consonant = data.get('question_consonant')
+    lang = data.get('lang') or 'th'
+    ja_kana = data.get('ja_kana')
 
-    consonants_json = get_json_data('./data/u.json')
+    data_path = get_data_path(lang, ja_kana)
 
-    choices = get_quiz_choices(consonants_json, question_consonant)
+    consonants_json = get_json_data(data_path)
+
+    choices = get_quiz_choices(consonants_json, question_consonant, lang)
 
     resp = {
         "question_consonant": question_consonant,
         "choices": choices
     }
     return jsonify(resp)
+
+def get_data_path(lang, ja_kana):
+    data_path = './data/'
+
+    if lang == 'th':
+        data_path += 'u.json'
+
+    if lang == 'ja':
+        if ja_kana == 'hiragana':
+            data_path += 'hiragana_data.json'
+        
+        # 'mixed'
+
+        if ja_kana == 'katakana':
+            data_path += 'katakana_data.json'
+
+    return data_path
 
 def get_consonants(consonants_json, consonant_count, is_random):
 
@@ -87,7 +114,7 @@ def get_consonants(consonants_json, consonant_count, is_random):
 
     return generated_consonants_list
 
-def get_quiz_choices(consonants_json, question_consonant, choice_count = 4):
+def get_quiz_choices(consonants_json, question_consonant,  lang, choice_count = 4):
 
     """
     Generate quiz choices based on the provided question consonant.
@@ -104,19 +131,19 @@ def get_quiz_choices(consonants_json, question_consonant, choice_count = 4):
     consonants_keys = list(consonants_json.keys())
 
     words = { question_consonant }
-    pronuns = { question_consonant: get_pronunciation(consonants_json, question_consonant) }
+    pronuns = { question_consonant: get_pronunciation(consonants_json, question_consonant, lang) }
     question_consonant_index = consonants_keys.index(question_consonant)
 
     if(question_consonant_index != len(consonants_keys) - 1):
         # question_consonant_index ka 43 so yin + 1 lote lo ma ya buu
         next_consonant = consonants_keys[question_consonant_index + 1]
         words.add(next_consonant)
-        pronuns[next_consonant] = get_pronunciation(consonants_json, next_consonant)
+        pronuns[next_consonant] = get_pronunciation(consonants_json, next_consonant, lang)
 
     while len(words) < choice_count:
         consonant = consonants_keys[random.randint(0, 43)]
         words.add(consonant)
-        pronuns[consonant] = get_pronunciation(consonants_json, consonant)
+        pronuns[consonant] = get_pronunciation(consonants_json, consonant, lang)
 
     choices = [ { "word": word, "pronuncation": pronuns[word] } for word in words ]
 
@@ -131,6 +158,6 @@ def get_json_data(file_path):
 
     return json_data
 
-def get_pronunciation(consonants_json, consonant):
+def get_pronunciation(consonants_json, consonant, lang):
 
-    return consonants_json[consonant]["pronunciation"]
+    return consonants_json[consonant]["letter"] if lang == 'ja' else consonants_json[consonant]["pronunciation"]

@@ -1,0 +1,327 @@
+{
+  
+    "あ": {
+      "letter": "あ",
+      "pronunciation": "a",
+      "meaning": "a basic vowel sound",
+      "phonetic": "ah",
+      "instructions": "Open your mouth wide and produce a neutral 'ah' sound."
+    },
+    "い": {
+      "letter": "い",
+      "pronunciation": "i",
+      "meaning": "a basic vowel sound",
+      "phonetic": "ee",
+      "instructions": "Smile slightly and produce a short 'ee' sound."
+    },
+    "う": {
+      "letter": "う",
+      "pronunciation": "u",
+      "meaning": "a basic vowel sound",
+      "phonetic": "oo",
+      "instructions": "Round your lips and produce a soft 'oo' sound."
+    },
+    "え": {
+      "letter": "え",
+      "pronunciation": "e",
+      "meaning": "a basic vowel sound",
+      "phonetic": "eh",
+      "instructions": "Open your mouth slightly and produce a short 'eh' sound."
+    },
+    "お": {
+      "letter": "お",
+      "pronunciation": "o",
+      "meaning": "a basic vowel sound",
+      "phonetic": "oh",
+      "instructions": "Round your lips slightly and produce a short 'oh' sound."
+    },
+    "か": {
+      "letter": "か",
+      "pronunciation": "ka",
+      "meaning": "ka as in 'katana'",
+      "phonetic": "kah",
+      "instructions": "Start with a slight 'k' sound followed by 'ah'."
+    },
+    "き": {
+      "letter": "き",
+      "pronunciation": "ki",
+      "meaning": "ki as in 'kimono'",
+      "phonetic": "kee",
+      "instructions": "Start with a slight 'k' sound followed by 'ee'."
+    },
+    "く": {
+      "letter": "く",
+      "pronunciation": "ku",
+      "meaning": "ku as in 'kuma' (bear)",
+      "phonetic": "koo",
+      "instructions": "Start with a slight 'k' sound followed by 'oo'."
+    },
+    "け": {
+      "letter": "け",
+      "pronunciation": "ke",
+      "meaning": "ke as in 'kettō' (battle)",
+      "phonetic": "keh",
+      "instructions": "Start with a slight 'k' sound followed by 'eh'."
+    },
+    "こ": {
+      "letter": "こ",
+      "pronunciation": "ko",
+      "meaning": "ko as in 'kotoba' (word)",
+      "phonetic": "koh",
+      "instructions": "Start with a slight 'k' sound followed by 'oh'."
+    },
+    "さ": {
+      "letter": "さ",
+      "pronunciation": "sa",
+      "meaning": "sa as in 'sakura' (cherry blossom)",
+      "phonetic": "sah",
+      "instructions": "Start with a soft 's' sound followed by 'ah'."
+    },
+    "し": {
+      "letter": "し",
+      "pronunciation": "shi",
+      "meaning": "shi as in 'shiro' (white)",
+      "phonetic": "shee",
+      "instructions": "Produce a soft 'sh' sound followed by 'ee'."
+    },
+    "す": {
+      "letter": "す",
+      "pronunciation": "su",
+      "meaning": "su as in 'sushi'",
+      "phonetic": "soo",
+      "instructions": "Produce a soft 's' sound followed by 'oo'."
+    },
+    "せ": {
+      "letter": "せ",
+      "pronunciation": "se",
+      "meaning": "se as in 'sensei' (teacher)",
+      "phonetic": "seh",
+      "instructions": "Start with a soft 's' sound followed by 'eh'."
+    },
+    "そ": {
+      "letter": "そ",
+      "pronunciation": "so",
+      "meaning": "so as in 'sora' (sky)",
+      "phonetic": "soh",
+      "instructions": "Start with a soft 's' sound followed by 'oh'."
+    },
+    "た": {
+      "letter": "た",
+      "pronunciation": "ta",
+      "meaning": "ta as in 'taka' (hawk)",
+      "phonetic": "tah",
+      "instructions": "Start with a light 't' sound followed by 'ah'."
+    },
+    "ち": {
+      "letter": "ち",
+      "pronunciation": "chi",
+      "meaning": "chi as in 'chikai' (near)",
+      "phonetic": "chee",
+      "instructions": "Produce a soft 'ch' sound followed by 'ee'."
+    },
+    "つ": {
+      "letter": "つ",
+      "pronunciation": "tsu",
+      "meaning": "tsu as in 'tsuru' (crane)",
+      "phonetic": "tsoo",
+      "instructions": "Combine 't' and 's' sounds followed by 'oo'."
+    },
+    "て": {
+      "letter": "て",
+      "pronunciation": "te",
+      "meaning": "te as in 'ten' (heaven)",
+      "phonetic": "teh",
+      "instructions": "Start with a soft 't' sound followed by 'eh'."
+    },
+    "と": {
+      "letter": "と",
+      "pronunciation": "to",
+      "meaning": "to as in 'tori' (bird)",
+      "phonetic": "toh",
+      "instructions": "Start with a soft 't' sound followed by 'oh'."
+    },
+    "な": {
+      "letter": "な",
+      "pronunciation": "na",
+      "meaning": "na as in 'naka' (inside)",
+      "phonetic": "nah",
+      "instructions": "Produce a soft 'n' sound followed by 'ah'."
+    },
+    "に": {
+      "letter": "に",
+      "pronunciation": "ni",
+      "meaning": "ni as in 'nihon' (Japan)",
+      "phonetic": "nee",
+      "instructions": "Produce a soft 'n' sound followed by 'ee'."
+    },
+    "ぬ": {
+      "letter": "ぬ",
+      "pronunciation": "nu",
+      "meaning": "nu as in 'nuno' (cloth)",
+      "phonetic": "noo",
+      "instructions": "Produce a soft 'n' sound followed by 'oo'."
+    },
+    "ね": {
+      "letter": "ね",
+      "pronunciation": "ne",
+      "meaning": "ne as in 'neko' (cat)",
+      "phonetic": "neh",
+      "instructions": "Produce a soft 'n' sound followed by 'eh'."
+    },
+    "の": {
+      "letter": "の",
+      "pronunciation": "no",
+      "meaning": "no as in 'nori' (seaweed)",
+      "phonetic": "noh",
+      "instructions": "Produce a soft 'n' sound followed by 'oh'."
+    },
+    "は": {
+      "letter": "は",
+      "pronunciation": "ha",
+      "meaning": "ha as in 'hana' (flower)",
+      "phonetic": "hah",
+      "instructions": "Produce a light 'h' sound followed by 'ah'."
+    },
+    "ひ": {
+      "letter": "ひ",
+      "pronunciation": "hi",
+      "meaning": "hi as in 'hikari' (light)",
+      "phonetic": "hee",
+      "instructions": "Produce a soft 'h' sound followed by 'ee'."
+    },
+    "ふ": {
+      "letter": "ふ",
+      "pronunciation": "fu",
+      "meaning": "fu as in 'fune' (boat)",
+      "phonetic": "foo",
+      "instructions": "Produce a breathy 'f' sound followed by 'oo'."
+    },
+    "へ": {
+      "letter": "へ",
+      "pronunciation": "he",
+      "meaning": "he as in 'heya' (room)",
+      "phonetic": "heh",
+      "instructions": "Produce a soft 'h' sound followed by 'eh'."
+    },
+    "ほ": {
+      "letter": "ほ",
+      "pronunciation": "ho",
+      "meaning": "ho as in 'hoshi' (star)",
+      "phonetic": "hoh",
+      "instructions": "Produce a soft 'h' sound followed by 'oh'."
+    },
+    "ま": {
+      "letter": "ま",
+      "pronunciation": "ma",
+      "meaning": "ma as in 'mama' (mother)",
+      "phonetic": "mah",
+      "instructions": "Produce a soft 'm' sound followed by 'ah'."
+    },
+    "み": {
+      "letter": "み",
+      "pronunciation": "mi",
+      "meaning": "mi as in 'miru' (see)",
+      "phonetic": "mee",
+      "instructions": "Produce a soft 'm' sound followed by 'ee'."
+    },
+    "む": {
+      "letter": "む",
+      "pronunciation": "mu",
+      "meaning": "mu as in 'mushi' (insect)",
+      "phonetic": "moo",
+      "instructions": "Produce a soft 'm' sound followed by 'oo'."
+    },
+    "め": {
+      "letter": "め",
+      "pronunciation": "me",
+      "meaning": "me as in 'megane' (glasses)",
+      "phonetic": "meh",
+      "instructions": "Produce a soft 'm' sound followed by 'eh'."
+    },
+    "も": {
+      "letter": "も",
+      "pronunciation": "mo",
+      "meaning": "mo as in 'mori' (forest)",
+      "phonetic": "moh",
+      "instructions": "Produce a soft 'm' sound followed by 'oh'."
+    },
+    "や": {
+      "letter": "や",
+      "pronunciation": "ya",
+      "meaning": "ya as in 'yama' (mountain)",
+      "phonetic": "yah",
+      "instructions": "Produce a soft 'y' sound followed by 'ah'."
+    },
+    "ゆ": {
+      "letter": "ゆ",
+      "pronunciation": "yu",
+      "meaning": "yu as in 'yuki' (snow)",
+      "phonetic": "yoo",
+      "instructions": "Produce a soft 'y' sound followed by 'oo'."
+    },
+    "よ": {
+      "letter": "よ",
+      "pronunciation": "yo",
+      "meaning": "yo as in 'yoru' (night)",
+      "phonetic": "yoh",
+      "instructions": "Produce a soft 'y' sound followed by 'oh'."
+    },
+    "ら": {
+      "letter": "ら",
+      "pronunciation": "ra",
+      "meaning": "ra as in 'rakka' (fall)",
+      "phonetic": "rah",
+      "instructions": "Produce a soft 'r' sound followed by 'ah'."
+    },
+    "り": {
+      "letter": "り",
+      "pronunciation": "ri",
+      "meaning": "ri as in 'ringo' (apple)",
+      "phonetic": "ree",
+      "instructions": "Produce a soft 'r' sound followed by 'ee'."
+    },
+    "る": {
+      "letter": "る",
+      "pronunciation": "ru",
+      "meaning": "ru as in 'ruka' (circle)",
+      "phonetic": "roo",
+      "instructions": "Produce a soft 'r' sound followed by 'oo'."
+    },
+    "れ": {
+      "letter": "れ",
+      "pronunciation": "re",
+      "meaning": "re as in 'rekishi' (history)",
+      "phonetic": "reh",
+      "instructions": "Produce a soft 'r' sound followed by 'eh'."
+    },
+    "ろ": {
+      "letter": "ろ",
+      "pronunciation": "ro",
+      "meaning": "ro as in 'roka' (corridor)",
+      "phonetic": "roh",
+      "instructions": "Produce a soft 'r' sound followed by 'oh'."
+    },
+    "わ": {
+      "letter": "わ",
+      "pronunciation": "wa",
+      "meaning": "wa as in 'wakarimasu' (understand)",
+      "phonetic": "wah",
+      "instructions": "Produce a soft 'w' sound followed by 'ah'."
+    },
+    "を": {
+      "letter": "を",
+      "pronunciation": "wo",
+      "meaning": "a particle indicating direct objects",
+      "phonetic": "oh",
+      "instructions": "Produce a soft 'w' sound followed by 'oh'."
+    },
+    "ん": {
+      "letter": "ん",
+      "pronunciation": "n",
+      "meaning": "a nasal sound, often used at the end of words",
+      "phonetic": "nn",
+      "instructions": "Close your mouth slightly and produce a nasal 'n' sound."
+    }
+    
+}
+  
